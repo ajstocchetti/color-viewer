@@ -1,0 +1,16 @@
+body {
+  padding: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+#board{
+  margin: 0 auto;
+}
+
+#board td{
+  border: 1px solid #ddd;
+  width: 6px;
+  height: 6px;
+}

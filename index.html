@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Color Picker</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="game.css">
+
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <h2>Constant Blue</h2>
+  <table id='board'></table>
+
+  <div style="width:75%;">
+    <h2 id="blueVal"></h2>
+    <input id="blueRange" type="range" min="0" max="255" step="2" value="30">
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Built by tackypinkflamingos</p>
+    </div>
+  </footer>
+
+  <script src="game.js"></script>
+</body>
+</html>
